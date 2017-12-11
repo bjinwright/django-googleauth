@@ -14,8 +14,8 @@ setup(
     long_description=long_description,
     platforms=["any"],
     install_requires=[
-        "PyJWT==0.4.1",
-        "requests==2.5.1",
+        "PyJWT>=1.5.3",
+        "requests>=2.18.4",
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
